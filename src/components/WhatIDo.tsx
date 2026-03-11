@@ -96,14 +96,18 @@ const WhatIDo = () => {
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Python</div>
+                <div className="what-tags">Machine Learning</div>
+                <div className="what-tags">Generative AI</div>
+                <div className="what-tags">Computer Vision</div>
+                <div className="what-tags">NLP</div>
+                <div className="what-tags">RAG</div>
+                <div className="what-tags">Agentic AI</div>
+                <div className="what-tags">Embeddings</div>
+                <div className="what-tags">Vector Databases</div>
                 <div className="what-tags">TensorFlow</div>
                 <div className="what-tags">Scikit-Learn</div>
-                <div className="what-tags">NLP</div>
-                <div className="what-tags">Computer Vision</div>
-                <div className="what-tags">RAG</div>
-                <div className="what-tags">LLMs</div>
-                <div className="what-tags">Embeddings</div>
+                <div className="what-tags">Pandas</div>
+                <div className="what-tags">NumPy</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -136,14 +140,18 @@ const WhatIDo = () => {
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
+                <div className="what-tags">Python</div>
+                <div className="what-tags">SQL</div>
+                <div className="what-tags">R</div>
+                <div className="what-tags">Java</div>
+                <div className="what-tags">C++</div>
                 <div className="what-tags">Next.js</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">TypeScript</div>
+                <div className="what-tags">React Native</div>
                 <div className="what-tags">Node.js</div>
                 <div className="what-tags">MongoDB</div>
-                <div className="what-tags">SQL</div>
                 <div className="what-tags">AWS</div>
-                <div className="what-tags">React Native</div>
+                <div className="what-tags">GCP</div>
+                <div className="what-tags">Azure</div>
               </div>
               <div className="what-arrow"></div>
             </div>
