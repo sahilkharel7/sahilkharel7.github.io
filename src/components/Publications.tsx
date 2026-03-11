@@ -6,7 +6,7 @@ const publications = [
     title:
       "A High-Resolution (1-km) Ecological Niche Model for Dengue Vectors in South Asia",
     authors: "Mainali, R. & Kharel, S.",
-    venue: "Zenodo — Montgomery College",
+    venue: "Working Paper",
     year: "2025",
     link: "https://zenodo.org/records/18829517",
     doi: "10.5281/zenodo.18829517",
