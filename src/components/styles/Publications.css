@@ -1,0 +1,158 @@
+.publications-section {
+  position: relative;
+  z-index: 1;
+  background-color: var(--backgroundColor);
+  padding: 80px 0;
+}
+
+.publications-container {
+  margin: auto;
+}
+
+.publications-section h2 {
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 400;
+  text-align: center;
+  background: linear-gradient(0deg, #0d9488, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.publications-section h2 > span {
+  font-family: "Geist", sans-serif;
+  font-weight: 300;
+}
+
+.publications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.publication-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 32px;
+  border: 1px solid #1e1e1e;
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+.publication-card:hover {
+  border-color: var(--accentColor);
+  background: rgba(94, 234, 212, 0.03);
+}
+
+.publication-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 120px;
+  padding-top: 4px;
+}
+
+.publication-year {
+  font-size: 32px;
+  font-weight: 600;
+  opacity: 0.3;
+  line-height: 1;
+}
+
+.publication-venue {
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--accentColor);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.publication-body {
+  flex: 1;
+}
+
+.publication-body h3 {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0 0 10px;
+  line-height: 1.35;
+}
+
+.publication-authors {
+  font-size: 15px;
+  font-weight: 300;
+  color: #adacac;
+  margin: 0 0 6px;
+}
+
+.publication-doi {
+  font-size: 13px;
+  font-weight: 300;
+  color: #666;
+  margin: 0;
+  font-family: monospace;
+}
+
+.publication-arrow {
+  font-size: 22px;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  padding-top: 4px;
+  color: var(--accentColor);
+}
+
+.publication-card:hover .publication-arrow {
+  opacity: 1;
+  transform: translate(2px, -2px);
+}
+
+@media only screen and (max-width: 1400px) {
+  .publications-section h2 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .publication-body h3 {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .publications-section {
+    padding: 50px 0;
+  }
+
+  .publications-section h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 40px;
+  }
+
+  .publication-card {
+    flex-direction: column;
+    gap: 12px;
+    padding: 24px;
+  }
+
+  .publication-meta {
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    min-width: unset;
+  }
+
+  .publication-year {
+    font-size: 24px;
+  }
+
+  .publication-arrow {
+    display: none;
+  }
+}
