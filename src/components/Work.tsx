@@ -5,34 +5,25 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Solid Starters",
-    category: "Low-Code Platform",
-    tools: "Angular, Next.js, NestJS, MongoDB",
-    image: "/images/Solidx.png",
+    title: "StudySync",
+    category: "AI-Powered Learning Platform",
+    tools: "Next.js, TypeScript, MongoDB, WebSockets, Google OAuth, Vercel",
+    image: "/images/studysync.png",
+    link: "https://study-sync.app",
   },
   {
-    title: "Radix",
-    category: "E-Commerce",
-    tools: "Angular, Next.js, NestJS, CMS",
-    image: "/images/radix.png",
+    title: "404: Driver Not Found",
+    category: "BCI Autonomous Driving System",
+    tools: "Python, Computer Vision, BCI Hardware, BeamNG.tech, IMU Data",
+    image: "/images/bci-driving.png",
+    link: "https://github.com/sahilkharel7/technica",
   },
   {
-    title: "Bond Cancellation",
-    category: "Import-Export Automation",
-    tools: "Angular, Next.js, NestJS, Workflows",
-    image: "/images/bond.png",
-  },
-  {
-    title: "Sapphire",
-    category: "CRM Platform",
-    tools: "AngularJS, NestJS, PostgreSQL",
-    image: "/images/sapphire.png",
-  },
-  {
-    title: "Mpro",
-    category: "Insurance Platform",
-    tools: "React.js, Node.js, Microservices",
-    image: "/images/Maxlife.png",
+    title: "QLess",
+    category: "Mobile Self-Checkout Platform",
+    tools: "React Native, Node.js, MongoDB, Stripe, Camera APIs",
+    image: "/images/qless.png",
+    link: "https://devpost.com/software/qless-qx90co",
   },
 ];
 
@@ -115,7 +106,7 @@ const Work = () => {
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
-                      <WorkImage image={project.image} alt={project.title} />
+                      <WorkImage image={project.image} alt={project.title} link={project.link} />
                     </div>
                   </div>
                 </div>

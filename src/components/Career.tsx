@@ -15,43 +15,45 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Ikshan</h5>
+                <h4>Data Science Intern</h4>
+                <h5>Sriyantra AI</h5>
               </div>
-              <h3>2020</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Built 6+ complete applications using React.js. Integrated backend
-              authentication using Node.js & MongoDB. Created responsive UI/UX
-              and designed wireframes using Figma.
+              Processed EEG and BCI time-series data, built analysis pipelines
+              for cognitive state patterns, fine-tuned local LLMs for
+              task-specific deployment, and developed web and mobile apps
+              to surface AI-driven insights.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Senior Full Stack Developer</h4>
-                <h5>Monocept (Max Life Insurance)</h5>
+                <h4>Peer Tutor, Economics & Accounting</h4>
+                <h5>Montgomery College</h5>
               </div>
-              <h3>2021</h3>
+              <h3>2024</h3>
             </div>
             <p>
-              Led two development teams on Mpro, a large-scale insurance
-              operations platform. Developed multiple modules using React.js &
-              migrated critical functionalities to Node.js microservices.
+              Provide one-on-one and group tutoring in intermediate Accounting
+              and Economics courses, translating complex financial principles
+              and quantitative methods into practical, student-friendly lessons.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Logic Loop</h5>
+                <h4>AI Engineer Intern</h4>
+                <h5>NeuralSense AIML</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Building Solid, a proprietary low-code platform using Angular,
-              Next.js & NestJS. Delivering production-ready CMS-based projects
-              including e-commerce, CRM, and import-export automation systems.
+              Building production-grade AI agents that automate large-scale
+              ecological data extraction, designing scalable data pipelines
+              with validation and traceability, and developing full-stack
+              applications for automated database management.
             </p>
           </div>
         </div>
